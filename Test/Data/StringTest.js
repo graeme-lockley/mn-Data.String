@@ -1,7 +1,7 @@
 const Assert = require("assert");
 const Unit = mrequire("core:Test.Unit:v1.0.0");
 
-const Int = mrequire("core:Data.Int:1.0.2");
+const Int = mrequire("core:Data.Int:1.0.4");
 const Maybe = mrequire("core:Data.Maybe:1.2.0");
 const Ordered = mrequire("core:Data.Ordered:1.0.0");
 
