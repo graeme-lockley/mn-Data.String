@@ -96,4 +96,10 @@ Unit.newSuite("Data.String")
         Assert.deepEqual(String.of("abc").show(), String.of("\"abc\""));
         Assert.deepEqual(String.of("a\"bc").show(), String.of("\"a\\\"bc\""));
     })
+    .case("lowerCase", () => {
+        Assert.deepEqual(String.of("Hello World").lowerCase(), String.of("hello world"));
+    })
+    .case("upperCase", () => {
+        Assert.deepEqual(String.of("Hello World").upperCase(), String.of("HELLO WORLD"));
+    })
 ;

@@ -1,4 +1,4 @@
-const NativeString = mrequire("core:Data.Native.String:1.2.0");
+const NativeString = mrequire("core:Data.Native.String:1.3.0");
 
 const Maybe = mrequire("core:Data.Maybe:1.2.0");
 
@@ -142,6 +142,16 @@ $String.prototype.show = function () {
     return of("\"")
         .$PLUS$PLUS(this.replaceAll(of("\""))(of("\\\"")))
         .$PLUS$PLUS(of("\""));
+};
+
+
+$String.prototype.lowerCase = function() {
+    return of(NativeString.lowerCase(this.value));
+};
+
+
+$String.prototype.upperCase = function() {
+    return of(NativeString.upperCase(this.value));
 };
 
 
