@@ -22,6 +22,7 @@
 [startsWith](#startsWith)
 [substring](#substring)
 [substringFrom](#substringFrom)
+[toNative](#toNative)
 [trim](#trim)
 
 ## Detail
@@ -33,6 +34,14 @@ of :: Data.Native.String -> String
 ```
 
 Creates a `String` from a `Data.Native.String`.
+
+### toNative
+
+```haskell
+String => toNative :: () -> Data.Native.String
+```
+
+Returns the native representation of the String.
 
 ### (==)
 
@@ -187,4 +196,4 @@ Concatenates two strings together to a create a new string.
 * [Data.Parity (1.0.0)](https://github.com/graeme-lockley/mn-Data.Parity)
 * [Data.Ordered (1.0.0)](https://github.com/graeme-lockley/mn-Data.Ordered)
 * [Data.Show (1.0.0)](https://github.com/graeme-lockley/mn-Data.Show)
-* [Data.Int (1.0.2)](https://github.com/graeme-lockley/mn-Data.Int)
+* [Data.Int (1.0.4)](https://github.com/graeme-lockley/mn-Data.Int)
