@@ -16,6 +16,7 @@
 [length](#length)
 [max](#max)
 [max](#max)
+[of](#of)
 [replace](#replace)
 [replaceAll](#replaceAll)
 [startsWith](#startsWith)
@@ -24,6 +25,14 @@
 [trim](#trim)
 
 ## Detail
+
+### of
+
+```haskell
+of :: Data.Native.String -> String
+```
+
+Creates a `String` from a `Data.Native.String`.
 
 ### (==)
 

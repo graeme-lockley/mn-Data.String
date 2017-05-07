@@ -13,6 +13,8 @@ function $String(value) {
 }
 
 
+//- Creates a `String` from a `Data.Native.String`.
+//= of :: Data.Native.String -> String
 const of = value =>
     new $String(value);
 
