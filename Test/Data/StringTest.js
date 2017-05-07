@@ -10,12 +10,12 @@ const $String = require("../../index.js");
 
 Unit.newSuite("Data.String")
     .case("(==)", () => {
-        Assert.deepEqual($String.$String.of("Hello").$EQUAL$EQUAL($String.$String.of("Hello")), true);
-        Assert.deepEqual($String.$String.of("Hello").$EQUAL$EQUAL($String.$String.of("World")), false);
+        Assert.deepEqual($String.of("Hello").$EQUAL$EQUAL($String.of("Hello")), true);
+        Assert.deepEqual($String.of("Hello").$EQUAL$EQUAL($String.of("World")), false);
     })
     .case("(!=)", () => {
-        Assert.deepEqual($String.$String.of("Hello").$NOT$EQUAL($String.$String.of("World")), true);
-        Assert.deepEqual($String.$String.of("Hello").$NOT$EQUAL($String.$String.of("Hello")), false);
+        Assert.deepEqual($String.of("Hello").$NOT$EQUAL($String.of("World")), true);
+        Assert.deepEqual($String.of("Hello").$NOT$EQUAL($String.of("Hello")), false);
     })
     .case("(<=)", () => {
         Assert.deepEqual($String.of("Hello").$LESS$EQUAL($String.of("World")), true);
@@ -64,8 +64,8 @@ Unit.newSuite("Data.String")
     })
     .case("indexOf", () => {
         Assert.deepEqual($String.of("hello").indexOf($String.of("world")), Maybe.Nothing);
-        Assert.deepEqual($String.of("hello").indexOf($String.of("hello")), Maybe.Just(of(0)));
-        Assert.deepEqual($String.of("hello").indexOf($String.of("ll")), Maybe.Just(of(2)));
+        Assert.deepEqual($String.of("hello").indexOf($String.of("hello")), Maybe.Just(Int.of(0)));
+        Assert.deepEqual($String.of("hello").indexOf($String.of("ll")), Maybe.Just(Int.of(2)));
     })
     .case("length", () => {
         Assert.deepEqual($String.of("").length(), Int.of(0));
