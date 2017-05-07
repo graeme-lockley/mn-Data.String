@@ -19,6 +19,13 @@ const of = value =>
     new $String(value);
 
 
+//- Returns the native representation of the String.
+//= String => toNative :: () -> Data.Native.String
+$String.prototype.toNative = function() {
+    return this.value;
+};
+
+
 //- Tests whether or not the parameter has the same value as `this`.
 //= String => (==) :: String -> Bool
 $String.prototype.$EQUAL$EQUAL = function (other) {
