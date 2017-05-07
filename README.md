@@ -2,26 +2,26 @@
 
 ## Index
 
-[(==)](#(==))
 [(!=)](#(!=))
-[(<=)](#(<=))
+[(++)](#(++))
 [(<)](#(<))
-[(>=)](#(>=))
+[(<=)](#(<=))
+[(==)](#(==))
 [(>)](#(>))
-[compare](#compare)
-[max](#max)
-[max](#max)
+[(>=)](#(>=))
 [at](#at)
-[indexOfFrom](#indexOfFrom)
+[compare](#compare)
 [indexOf](#indexOf)
+[indexOfFrom](#indexOfFrom)
 [length](#length)
+[max](#max)
+[max](#max)
+[replace](#replace)
+[replaceAll](#replaceAll)
 [startsWith](#startsWith)
 [substring](#substring)
 [substringFrom](#substringFrom)
 [trim](#trim)
-[replace](#replace)
-[replaceAll](#replaceAll)
-[(++)](#(++))
 
 ## Detail
 
