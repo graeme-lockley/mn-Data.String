@@ -5,7 +5,7 @@ const Maybe = mrequire("core:Data.Maybe:1.2.0");
 const Parity = mrequire("core:Data.Parity:1.0.0");
 const Ordered = mrequire("core:Data.Ordered:1.0.0");
 const Visible = mrequire("core:Data.Show:1.0.0");
-const Int = mrequire("core:Data.Int:1.0.1");
+const Int = mrequire("core:Data.Int:1.0.2");
 
 
 function $String(value) {
