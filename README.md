@@ -11,18 +11,18 @@
 [(>=)](#(>=))
 [at](#at)
 [compare](#compare)
-[indexOf](#indexOf)
-[indexOfFrom](#indexOfFrom)
+[indexOf](#indexof)
+[indexOfFrom](#indexoffrom)
 [length](#length)
 [max](#max)
 [max](#max)
 [of](#of)
 [replace](#replace)
-[replaceAll](#replaceAll)
-[startsWith](#startsWith)
+[replaceAll](#replaceall)
+[startsWith](#startswith)
 [substring](#substring)
-[substringFrom](#substringFrom)
-[toNative](#toNative)
+[substringFrom](#substringfrom)
+[toNative](#tonative)
 [trim](#trim)
 
 ## Detail
@@ -191,9 +191,9 @@ Concatenates two strings together to a create a new string.
 
 ## Dependencies
 
-* [Data.Native.String (1.2.0)](https://github.com/graeme-lockley/mn-Data.Native.String)
+* [Data.Native.String (1.3.0)](https://github.com/graeme-lockley/mn-Data.Native.String)
 * [Data.Maybe (1.2.0)](https://github.com/graeme-lockley/mn-Data.Maybe)
 * [Data.Parity (1.0.0)](https://github.com/graeme-lockley/mn-Data.Parity)
 * [Data.Ordered (1.0.0)](https://github.com/graeme-lockley/mn-Data.Ordered)
 * [Data.Show (1.0.0)](https://github.com/graeme-lockley/mn-Data.Show)
-* [Data.Int (1.0.4)](https://github.com/graeme-lockley/mn-Data.Int)
+* [Data.Int (1.1.0)](https://github.com/graeme-lockley/mn-Data.Int)
